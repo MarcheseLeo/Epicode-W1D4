@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header {
+            background-color: #222F3F;
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+
+        header img {
+            width: 160px;
+        }
+
+        nav {
+            background-color: #364759;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            padding: 5px;
+        }
+
+        .container {
+            width: 1200px;
+            margin: auto;
+            border: 2px solid green;
+        }
+
+        main {
+            background-color: #E9EDEE;
+            padding: 25px 0;
+        }
+
+        .notice {
+            background: #F56600;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            margin: 25px 0;
+        }
+
+        .hero-section {
+            background-image: url(assets/images/bg-image.png);
+            color: white;
+            text-align: center;
+            margin: 25px 0;
+            padding: 25px 0;
+            background-size: contain;
+        }
+
+        .section1 {
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+        }
+
+        .section-title h3,
+        .section-title p {
+            display: inline;
+        }
+
+        .card-container {}
+
+        .card1 {
+            background-image: url(assets/images/img_1.jpg);
+            width: 280px;
+            height: 350px;
+            background-size: cover;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .card2 {
+            background-image: url(assets/images/img_2.jpg);
+            width: 280px;
+            height: 350px;
+            background-size: cover;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .card3 {
+            background-image: url(assets/images/img_3.jpg);
+            width: 280px;
+            height: 350px;
+            background-size: cover;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .card4 {
+            background-image: url(assets/images/img_4.jpg);
+            width: 280px;
+            height: 350px;
+            background-size: cover;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .top-footer {
+            background: #364759;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .bottom-footer {
+            background: #222F3F;
+            text-align: center;
+
+        }
+
+        .section2 {
+            padding: 25px 0;
+            text-align: center;
+        }
+
+        .section2 img {
+            width: 100%;
+
+        }
+
+        .section2-title h3,
+        .section2-title p {
+            display: inline;
+
+        }
+
+        .box {
+            width: 320px;
+            height: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .box-row {}
+
+        .box-product {
+            display: inline-block;
+            position: relative;
+        }
+
+        .box-product img {
+            width: 145px;
+            margin: 5px;
+        }
+
+        .new {
+            position: absolute;
+            bottom: 0;
+            left: 112px;
+        }
+
+        .new img {
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/images/logo.png" alt="loo amazon">
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>All</li>
+                    <li>Today</li>
+                    <li>Customer</li>
+                    <li>Registry</li>
+                    <li>Gif Cards</li>
+                    <li>Sell</li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="notice">
+                <p>Shop All Holiday</p>
+            </div>
+            <div class="hero-section">
+                <h1>Holiday Gift Guides</h1>
+                <p>Be a go-gifter</p>
+            </div>
+            <div class="section1">
+                <div class="section-title">
+                    <h3>Find the perfect gift</h3>
+                    <p>Shop now</p>
+                </div>
+                <div class="card-container">
+                    <div class="card1"></div>
+                    <div class="card2"></div>
+                    <div class="card3"></div>
+                    <div class="card4"></div>
+                </div>
+            </div>
+            <div class="section2">
+                <img src="assets/images/img_9.png" alt="">
+                <div class="section2-title">
+                    <h3>Play the gifting game</h3>
+                    <p>Shop now</p>
+                </div>
+            </div>
+            <div class="section2">
+                <img src="assets/images/img_10.png" alt="">
+                <div class="section2-title">
+                    <h3>The sound of cheer</h3>
+                    <p>Shop now</p>
+                </div>
+            </div>
+            <div class="extra">
+                <div class="box">
+                    <h3>Titolo</h3>
+                    <div class="box-row">
+                        <div class="box-product">
+                            <img src="assets/images/img_13.jpg" alt="">
+                            <p>Prodotto</p>
+                            <div class="new">
+                                <img src="assets/images/new.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <img src="assets/images/img_14.jpg" alt="">
+                            <p>Prodotto</p>
+                        </div>
+                    </div>
+                    <div class="box-row">
+                        <div class="box-product">
+                            <img src="assets/images/img_15.jpg" alt="">
+                            <p>Prodotto</p>
+                        </div>
+                        <div class="box-product">
+                            <img src="assets/images/img_16.jpg" alt="">
+                            <p>Prodotto</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Titolo</h3>
+                    <div class="box-row">
+                        <div class="box-product">
+                            <img src="assets/images/img_17.jpg" alt="">
+                            <p>Prodotto</p>
+                            <div class="new">
+                                <img src="assets/images/new.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <img src="assets/images/img_18.jpg" alt="">
+                            <p>Prodotto</p>
+                        </div>
+                    </div>
+                    <div class="box-row">
+                        <div class="box-product">
+                            <img src="assets/images/img_19.jpg" alt="">
+                            <p>Prodotto</p>
+                        </div>
+                        <div class="box-product">
+                            <img src="assets/images/img_20.jpg" alt="">
+                            <p>Prodotto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <p>Back to top</p>
+        </div>
+        <div class="bottom-footer">
+            <img src="assets/images/logo.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
